@@ -66,8 +66,8 @@ export class _Blank extends React.Component {
       <Button
         textStyle={{
           fontSize: 12,
-          color: "#000000",
-          textAlign: "right",
+          color: "#eac2c2",
+          textAlign: "center",
           fontFamily: "Roboto-Regular"
         }}
         style={{
@@ -83,7 +83,7 @@ export class _Blank extends React.Component {
           overflow: "visible",
           alignSelf: "flex-start",
           fontSize: 12,
-          color: "#000000",
+          color: "#eac2c2",
           backgroundColor: "#3366FF",
           fontFamily: "Roboto-Regular",
           borderColor: "#000000",
@@ -94,8 +94,8 @@ export class _Blank extends React.Component {
           borderTopWidth: 0,
           borderBottomWidth: 0,
           borderRadius: 0,
-          textAlign: "right",
-          textAlignVertical: "center",
+          textAlign: "center",
+          textAlignVertical: "bottom",
           textDecorationLine: "none",
           textTransform: "none",
           lineHeight: 12,
