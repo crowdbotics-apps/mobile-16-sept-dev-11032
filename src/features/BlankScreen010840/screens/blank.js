@@ -124,16 +124,12 @@ export class _Blank extends React.Component {
           fontFamily: "Roboto-Regular",
           borderColor: "#000000",
           borderStyle: "solid",
-          borderWidth: 0,
-          borderLeftWidth: 0,
-          borderRightWidth: 0,
-          borderTopWidth: 0,
-          borderBottomWidth: 0,
+          borderWidth: 2,
           borderRadius: 0,
           textAlign: "center",
           textAlignVertical: "center",
           textDecorationLine: "none",
-          textTransform: "none",
+          textTransform: "uppercase",
           lineHeight: 12,
           letterSpacing: 0,
           width: 100,
@@ -329,6 +325,38 @@ export class _Blank extends React.Component {
           borderRadius: 0
         }}
       />
+      <Text
+        style={{
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          alignSelf: "center",
+          fontSize: 12,
+          color: "#000000",
+          backgroundColor: "#ffffff",
+          fontFamily: "Roboto-Regular",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 2,
+          borderRadius: 0,
+          textAlign: "center",
+          textAlignVertical: "center",
+          textDecorationLine: "none",
+          textTransform: "uppercase",
+          lineHeight: 12,
+          letterSpacing: 0,
+          width: 100,
+          height: 100
+        }}
+      >
+        Sample text content
+      </Text>
     </View>
   )
 }
