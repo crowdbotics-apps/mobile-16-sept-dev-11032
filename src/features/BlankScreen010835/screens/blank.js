@@ -23,7 +23,7 @@ export class _Blank extends React.Component {
   }
 
   state = {
-    Input_4: "",
+    Input_4: "tetjhjhkh",
     Datepicker_5: new Date("09/16/2020"),
     Input_6: "",
     Toggle_7: true
@@ -67,11 +67,11 @@ export class _Blank extends React.Component {
         textStyle={{
           fontSize: 12,
           color: "#000000",
-          textAlign: "center",
+          textAlign: "right",
           fontFamily: "Roboto-Regular"
         }}
         style={{
-          width: "100%",
+          width: 100,
           marginLeft: 0,
           marginRight: 0,
           marginTop: 5,
@@ -81,6 +81,7 @@ export class _Blank extends React.Component {
           paddingTop: 5,
           paddingBottom: 5,
           overflow: "visible",
+          alignSelf: "flex-start",
           fontSize: 12,
           color: "#000000",
           backgroundColor: "#3366FF",
@@ -93,7 +94,7 @@ export class _Blank extends React.Component {
           borderTopWidth: 0,
           borderBottomWidth: 0,
           borderRadius: 0,
-          textAlign: "center",
+          textAlign: "right",
           textAlignVertical: "center",
           textDecorationLine: "none",
           textTransform: "none",
@@ -115,6 +116,7 @@ export class _Blank extends React.Component {
           paddingTop: 5,
           paddingBottom: 5,
           overflow: "visible",
+          alignSelf: "center",
           fontSize: 12,
           color: "#000000",
           backgroundColor: "#ffffff",
@@ -147,7 +149,7 @@ export class _Blank extends React.Component {
           fontFamily: "Roboto-Regular"
         }}
         style={{
-          width: "100%",
+          width: 100,
           marginLeft: 0,
           marginRight: 0,
           marginTop: 5,
@@ -157,6 +159,7 @@ export class _Blank extends React.Component {
           paddingTop: 5,
           paddingBottom: 5,
           overflow: "visible",
+          alignSelf: "center",
           fontSize: 12,
           color: "#000000",
           backgroundColor: "#ffffff",
@@ -181,7 +184,7 @@ export class _Blank extends React.Component {
       />
       <Datepicker
         style={{
-          width: "100%",
+          width: 100,
           marginLeft: 0,
           marginRight: 0,
           marginTop: 5,
@@ -191,6 +194,7 @@ export class _Blank extends React.Component {
           paddingTop: 5,
           paddingBottom: 5,
           overflow: "visible",
+          alignSelf: "flex-start",
           fontSize: 12,
           color: "#000000",
           backgroundColor: "#ffffff",
@@ -224,7 +228,7 @@ export class _Blank extends React.Component {
           fontFamily: "Roboto-Regular"
         }}
         style={{
-          width: "100%",
+          width: 100,
           marginLeft: 0,
           marginRight: 0,
           marginTop: 5,
@@ -234,6 +238,7 @@ export class _Blank extends React.Component {
           paddingTop: 5,
           paddingBottom: 5,
           overflow: "visible",
+          alignSelf: "flex-end",
           fontSize: 12,
           color: "#000000",
           backgroundColor: "#ffffff",
@@ -271,6 +276,7 @@ export class _Blank extends React.Component {
           paddingTop: 5,
           paddingBottom: 5,
           overflow: "visible",
+          alignSelf: "center",
           borderColor: "#000000",
           borderStyle: "solid",
           borderWidth: 0,
