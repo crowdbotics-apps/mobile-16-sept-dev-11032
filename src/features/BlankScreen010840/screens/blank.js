@@ -95,11 +95,12 @@ export class _Blank extends React.Component {
           borderBottomWidth: 0,
           borderRadius: 0,
           textAlign: "center",
-          textAlignVertical: "bottom",
+          textAlignVertical: "center",
           textDecorationLine: "none",
           textTransform: "none",
           lineHeight: 12,
-          letterSpacing: 0
+          letterSpacing: 0,
+          height: 100
         }}
         onPress={() => alert("Pressed!")}
       >
@@ -129,12 +130,14 @@ export class _Blank extends React.Component {
           borderTopWidth: 0,
           borderBottomWidth: 0,
           borderRadius: 0,
-          textAlign: "left",
+          textAlign: "center",
           textAlignVertical: "center",
           textDecorationLine: "none",
           textTransform: "none",
           lineHeight: 12,
-          letterSpacing: 0
+          letterSpacing: 0,
+          width: 100,
+          height: 100
         }}
       >
         Sample text content
